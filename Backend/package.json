@@ -1,12 +1,21 @@
 {
-  "name": "backend",
+  "name": "edith-backend",
   "version": "1.0.0",
-  "description": "EDIth",
+  "description": "edith backend API for X12 parsing, validation, AI explain, and fixes",
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "multer": "^2.0.2",
+    "openai": "^5.22.0"
   }
 }
