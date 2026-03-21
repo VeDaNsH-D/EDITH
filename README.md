@@ -1,4 +1,4 @@
-# edith
+# EDITH
 
 edith is a full-stack healthcare X12 platform for 837P/837I/835/834 ingestion, parsing, validation, AI explanations, and fix-revalidate workflows.
 
